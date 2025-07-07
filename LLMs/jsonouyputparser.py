@@ -29,4 +29,4 @@ result=chain.invoke({})
 print(result)
 
 # we dont apply schema to json or we cannot manually set schema 
-
+ 
