@@ -23,3 +23,6 @@ prompt=chat_template.invoke({'chat_history':chat_history,'query':'where is my re
 
 
 print(prompt)
+
+
+

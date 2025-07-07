@@ -18,3 +18,13 @@ scikit-learn
 
 tensorflow
 streamlit 
+
+pydantic 
+
+SpeechRecognition
+PyAudio
+
+streamlit-webrtc 
+av
+
+pydub

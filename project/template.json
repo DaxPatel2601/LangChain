@@ -1,0 +1,15 @@
+{
+    "name": null,
+    "input_variables": [
+        "\n    \"name\""
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "\n    You are an intelligent information extractor.\n\n    Given a formal personal introduction, extract the following information:\n\n    Fields to extract:\n    - name\n    - experience\n    - education\n    - company_name\n    - skills\n    - college_name\n    - batch\n    - projects\n\n    If any field is not mentioned, set its value to `null`.\n\n    Formal Introduction:\n  \n    Expected Output (in JSON dictionary format):\n    {\n    \"name\": ...,\n    \"experience\": ...,\n    \"education\": ...,\n    \"company_name\": ...,\n    \"skills\": [...],\n    \"college_name\": ...,\n    \"batch\": ...,\n    \"projects\": [...]\n    }\n\n",
+    "template_format": "f-string",
+    "validate_template": false,
+    "_type": "prompt"
+}
