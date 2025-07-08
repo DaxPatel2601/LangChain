@@ -30,3 +30,9 @@ av
 pydub
 
 grandalf
+langchain_community
+
+pypdf
+
+youtube-transcript-api
+
