@@ -36,3 +36,12 @@ pypdf
 
 youtube-transcript-api
 
+langchain_openai
+
+sentence-transformers
+
+tf-keras
+hf_xet
+faiss-cpu
+
+pinecone

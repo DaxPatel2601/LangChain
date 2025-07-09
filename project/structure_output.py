@@ -48,3 +48,5 @@ if result_copy is not None:
         file_name="extracted_info.json",
         mime="application/json"
     )
+    
+    
