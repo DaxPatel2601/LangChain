@@ -94,7 +94,7 @@ def embedding_Pinecone(embedding_model,pinecone_api_key,environment,index_name,d
     )
     index_name=index_name
     
-    vector_store=Pinecone.from_documents(document,embedding_model,index_name=index_name)
+    vector_store=pinecone.from_documents(document,embedding_model,index_name=index_name)
     return vector_store
 
 
